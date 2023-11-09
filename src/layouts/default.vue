@@ -1,19 +1,15 @@
 <template>
-  <header class="shadow-sm bg-pink">
-    <nav>
-      <NuxtLink to="/">Nuxt Dojo</NuxtLink>
-      <ul class="flex justify-between w-1/3">
-        <li class="btn"><NuxtLink to="/">Home</NuxtLink></li>
-        <li><NuxtLink to="/about">Home</NuxtLink></li>
-        <li><NuxtLink to="/products">Products</NuxtLink></li>
-      </ul>
-    </nav>
-  </header>
-  <div class=" container p-4">
-    <slot />
-  </div>
+  <Header />
+
+  <slot />
 </template>
 
-<script setup></script>
+<script>
+import Header from "../components/header.vue";
+export default {
+  name: "Default Layout",
+  components: { Header },
+};
+</script>
 
 <style lang="scss" scoped></style>

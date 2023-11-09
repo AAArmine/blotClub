@@ -2,12 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Roboto";
+  font-weight: 700;
+  src: url("../fonts/roboto/Roboto-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "RobotoThin";
+  font-weight: 300;
+  src: url("../fonts/roboto/Roboto-Thin.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Mardoto";
+  font-weight: 600;
+  src: url("../fonts/mardoto/Mardoto-Regular.ttf") format("truetype");
+}
 body {
   @apply bg-gray-50;
 }
 
 @layer components {
   .btn {
-    @apply bg-custom-green text-white px-8 py-2 rounded-md text-sm;
+    @apply text-dark-text font-bold px-4 py-2 rounded-md text-sm;
+  }
+}
+@layer components {
+  .btn-gradient {
+    background: linear-gradient(
+      to bottom,
+      var(--bg-custom-yellow),
+      var(--bg-custom-dark-yellow)
+    );
   }
 }
