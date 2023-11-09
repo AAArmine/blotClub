@@ -7,7 +7,6 @@ module.exports = {
         "custom-yellow": "#FBDF4C",
         "custom-dark-yellow": "#FFA403",
         "light-green": "#00B206",
-        banner: 'url("@assets/images/banner.png")',
       },
       colors: {
         "dark-text": "#363636",
@@ -15,6 +14,7 @@ module.exports = {
       backgroundImage: {
         "gradient-to-b":
           "linear-gradient(to bottom, var(--bg-custom-yellow), var(--bg-custom-dark-yellow))",
+        "gradient-slider": "linear-gradient(to bottom, #FDEFA3, #FFD07D)",
       },
       fontFamily: {
         roboto: ["Roboto", "sans-serif"],

@@ -27,6 +27,31 @@ body {
   }
 }
 @layer components {
+  .custom-txt {
+    @apply text-dark-text text-sm font-semibold;
+  }
+}
+@layer components {
+  .custom-wrapper {
+    @apply w-10/12 mx-auto;
+  }
+}
+@layer components {
+  .bg-image {
+    @apply bg-auto bg-center bg-cover bg-no-repeat;
+  }
+}
+@layer components {
+  .custom-title {
+    @apply font-light text-[34px];
+  }
+}
+@layer components {
+  .primary-title {
+    @apply font-extrabold text-6xl;
+  }
+}
+@layer components {
   .btn-gradient {
     background: linear-gradient(
       to bottom,

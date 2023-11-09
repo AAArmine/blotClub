@@ -1,8 +1,7 @@
 <template>
   <header class="relative w-full flex justify-between">
     <div class="z-[-1] h-20 bg-[#0000006e] opacity-60 absolute w-full"></div>
-
-    <div class="flex justify-between w-10/12 mx-auto py-1 items-center">
+    <div class="flex justify-between custom-wrapper py-1 items-center">
       <div>
         <img
           class="w-10/12"

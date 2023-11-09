@@ -1,7 +1,9 @@
 <template>
-  <banner/>
-  <mega-combo/>
-  <div>home</div>
+  <banner />
+  <mega-combo />
+  <description />
+  <logo-cont />
+  <slider />
 </template>
 <script>
 // import Banner from "../components/banner.vue";
