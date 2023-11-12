@@ -1,3 +1,5 @@
+import type contactsVue from '~/components/contacts.vue';
+
 <template>
   <banner />
   <mega-combo />
@@ -7,4 +9,5 @@
   <statistics />
   <about />
   <present-set />
+  <Contacts />
 </template>

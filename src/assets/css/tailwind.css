@@ -32,6 +32,11 @@ body {
   }
 }
 @layer components {
+  .custom-light-txt {
+    @apply text-white text-sm font-semibold;
+  }
+}
+@layer components {
   .custom-wrapper {
     @apply w-10/12 mx-auto;
   }

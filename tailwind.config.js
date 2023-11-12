@@ -7,6 +7,7 @@ module.exports = {
         "custom-yellow": "#FBDF4C",
         "custom-dark-yellow": "#FFA403",
         "light-green": "#00B206",
+        "deep-red": "#700010",
       },
       colors: {
         "dark-text": "#363636",
