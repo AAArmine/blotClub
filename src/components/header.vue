@@ -12,10 +12,10 @@
       <nav>
         <ul class="flex justify-between text-white text-13 font-bold text-xs">
           <li class="pt-3 relative left-14 pointer">
-            <NuxtLink to="/history">ИСТОРИЯ ТУРНИРОВ</NuxtLink>
+            <NuxtLink to="#">ИСТОРИЯ ТУРНИРОВ</NuxtLink>
           </li>
           <li class="pt-3 left-3 top-4 z-[-1] pointer relative text-dark-text">
-            <NuxtLink to="/buy">КУПИТЬ ФИШКИ</NuxtLink>
+            <NuxtLink to="#">КУПИТЬ ФИШКИ</NuxtLink>
           </li>
           <li
             class="btn text-sm"

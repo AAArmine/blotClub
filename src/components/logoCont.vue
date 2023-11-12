@@ -12,8 +12,8 @@
       </div>
      
         <img
-          class="w-64 relative top-6"
-          alt="BazarBlot logo"
+          class="w-64 relative top-6 z-10"
+          alt="buy chips"
           src="../assets/images/buyChips.png"
         />
    
