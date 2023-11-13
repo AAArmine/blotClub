@@ -11,11 +11,8 @@
       </div>
       <nav>
         <ul class="flex justify-between text-white text-13 font-bold text-xs">
-          <li class="pt-3 relative left-14 pointer">
+          <li class="pt-3 pointer mr-10 font-montserratRegular">
             <NuxtLink to="#">ИСТОРИЯ ТУРНИРОВ</NuxtLink>
-          </li>
-          <li class="pt-3 left-3 top-4 z-[-1] pointer relative text-dark-text">
-            <NuxtLink to="#">КУПИТЬ ФИШКИ</NuxtLink>
           </li>
           <li
             class="btn text-sm"

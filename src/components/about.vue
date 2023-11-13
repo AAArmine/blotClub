@@ -1,5 +1,5 @@
 <template>
-  <div class="custom-wrapper pb-10">
+  <div class="custom-wrapper pb-10 pb-28">
     <p class="custom-txt font-mardoto">
       Сначала появилась блестящая идея перевести игру на онлайн-уровень. Blot
       Club первым дал возможность сыграть в любимую игру в любое время и в любом
