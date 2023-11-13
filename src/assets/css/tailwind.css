@@ -14,8 +14,42 @@
 }
 @font-face {
   font-family: "Mardoto";
-  font-weight: 600;
   src: url("../fonts/mardoto/Mardoto-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "MontserratBlack";
+  src: url("../fonts/montserrat/Montserrat-Black.ttf") format("truetype");
+}
+@font-face {
+  font-family: "MontserratRegular";
+  /* font-weight: 600; */
+  src: url("../fonts/montserrat/Montserrat-Light.ttf") format("truetype");
+}
+@layer components {
+  .font-montserratBlack {
+    font-family: "MontserratBlack", sans-serif;
+  }
+}
+@layer components {
+  .font-montserratRegular {
+    font-family: "MontserratRegular", sans-serif;
+  }
+}
+@layer components {
+  .font-mardoto {
+    font-family: "Mardoto", sans-serif;
+  }
+}
+@layer components {
+  .font-robotoThin {
+    font-family: "RobotoThin", sans-serif;
+  }
+}
+
+@layer components {
+  .font-roboto {
+    font-family: "Roboto", sans-serif;
+  }
 }
 body {
   @apply bg-gray-50;
@@ -31,12 +65,12 @@ body {
 }
 @layer components {
   .custom-txt {
-    @apply text-dark-text text-sm font-semibold;
+    @apply text-dark-text text-xs leading-6 font-semibold;
   }
 }
 @layer components {
   .custom-light-txt {
-    @apply text-white text-sm font-semibold;
+    @apply text-white text-sm;
   }
 }
 @layer components {
@@ -51,7 +85,7 @@ body {
 }
 @layer components {
   .custom-title {
-    @apply font-light text-[34px];
+    @apply font-light text-[30px];
   }
 }
 @layer components {
