@@ -9,16 +9,12 @@
           alt="BazarBlot logo"
           src="../assets/images/logo.png"
         />
-      </div>
-     
+      </div>  
         <img
           class="w-64 relative top-6 z-10"
           alt="buy chips"
           src="../assets/images/buyChips.png"
         />
-   
     </div>
   </div>
 </template>
-
-<script setup></script>

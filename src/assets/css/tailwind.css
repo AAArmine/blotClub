@@ -19,6 +19,9 @@
 }
 body {
   @apply bg-gray-50;
+  #nuxt-devtools-container {
+    display: none;
+  }
 }
 
 @layer components {
