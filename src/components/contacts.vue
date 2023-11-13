@@ -21,8 +21,13 @@
           </div>
         </div>
         <button
-          class="font-semibold w-full rounded-lg border border-white py-4 bg-transparent text-white"
+          class="w-[385px] m-auto flex justify-center relative items-center font-semibold w-full rounded-lg border border-white py-4 bg-transparent text-white"
         >
+          <img
+            class="absolute left-2 w-6"
+            src="../assets/images/ark.png"
+            alt="ark"
+          />
           Загрузить файл АРК
         </button>
         <div class="w-[400px] border-b border-red-900 my-6" />

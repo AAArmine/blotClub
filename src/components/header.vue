@@ -20,7 +20,7 @@
               background-image: linear-gradient(to bottom, #fbdf4c, #ffa403);
             "
           >
-            <NuxtLink to="/">КУПИТЬ ФИШКИ</NuxtLink>
+            <NuxtLink to="#">КУПИТЬ ФИШКИ</NuxtLink>
           </li>
         </ul>
       </nav>

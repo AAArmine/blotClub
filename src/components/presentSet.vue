@@ -5,7 +5,7 @@
     <div class="flex justify-center custom-wrapper py-16 mb-6">
       <div class="w-1/2 relative">
         <img
-          class="absolute top-[-150px] right-[-40px]"
+          class="absolute top-[-130px] right-[-40px]"
           src="@/assets/images/presentSet.png"
           alt="bazar blot present set"
         />
